@@ -39,5 +39,10 @@ namespace zadanie_1
                 x2 += z;
             }
         }
+
+        private void Delete_Click(object sender, RoutedEventArgs e)
+        {
+            answer.Text = "";
+        }
     }
 }
